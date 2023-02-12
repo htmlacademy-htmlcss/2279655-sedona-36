@@ -1,0 +1,256 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+html {
+height: 100%;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #000000;
+    background-color: #FFFFFF;
+    margin: 0;
+    height: 100%;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.header-logo {
+    margin-left: 70px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation-list {
+    width: 339px;
+}
+
+.navigation-user {
+    width: 268px;
+    margin-right: 70px;
+}
+
+.navigation-link {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navigation-link-white {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.main-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 620px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-description {
+    font-size: 22px;
+    line-height: 26px;
+    width: 651px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+.advantages-flex {
+    display: flex;
+    justify-content: space-between;
+    height: 385px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0;
+}
+
+.advantages-item-blue {
+    background-color: #82B3D3;
+    display: flex;
+}
+
+.advantages-item-grey {
+    background-color: rgba(131, 179, 211, 0.2);
+    width: 400px;
+    height: 385px;
+}
+
+.advantages-item {
+    background-color: rgba(131, 179, 211, 0.12);
+    width: 400px;
+    height: 385px;
+}
+
+.advantages-title-white {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.advantages-description-white {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #82B3D3;
+}
+
+.advantages-item-white {
+    background-color: #FFFFFF
+}
+
+.advantages-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.advantages-description {
+    text-align: center;
+}
+
+.additional-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 505px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.additional-description {
+    font-size: 22px;
+    line-height: 26px;
+    width: 490px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+.search-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 297px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.search-description {
+    font-size: 22px;
+    line-height: 26px;
+    width: 592px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+.search-buttom {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+   }
+
+.subscribe-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.subscribe-description {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.form-subscribe {
+    font-family: "PT Sans", sans-serif;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.button-subscribe {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    }
+
+.subscribe {
+    color: black;
+    background-color: white;
+    background-image: url("../images/subscribe-img.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 414px;
+}
