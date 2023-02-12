@@ -2,7 +2,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
-    src: url("fonts/ptsans-400.woff2") format("woff2");
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
 }
 
@@ -10,16 +10,64 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 700;
-    src: url("fonts/ptsans-700.woff2") format("woff2");
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
     font-display: swap;
+}
+
+html {
+height: 100%;
 }
 
 body {
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 21px;
+    font-weight: 400;
     color: #000000;
     background-color: #FFFFFF;
+    margin: 0;
+    height: 100%;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.header-logo {
+    margin-left: 70px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation-list {
+    width: 339px;
+}
+
+.navigation-user {
+    width: 268px;
+    margin-right: 70px;
 }
 
 .navigation-link {
@@ -45,24 +93,49 @@ body {
     line-height: 36px;
     font-weight: 700;
     text-transform: uppercase;
+    width: 620px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .main-description {
     font-size: 22px;
     line-height: 26px;
-    font-weight: 400;
+    width: 651px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+.advantages-flex {
+    display: flex;
+    justify-content: space-between;
+    height: 385px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0;
 }
 
 .advantages-item-blue {
     background-color: #82B3D3;
+    display: flex;
 }
 
 .advantages-item-grey {
-    background-color: rgba(131, 179, 211, 0.2)
+    background-color: rgba(131, 179, 211, 0.2);
+    width: 400px;
+    height: 385px;
 }
 
 .advantages-item {
-    background-color: rgba(131, 179, 211, 0.12)
+    background-color: rgba(131, 179, 211, 0.12);
+    width: 400px;
+    height: 385px;
 }
 
 .advantages-title-white {
@@ -75,7 +148,6 @@ body {
 }
 
 .advantages-description-white {
-    font-weight: 400;
     text-align: center;
     color: #FFFFFF;
     background-color: #82B3D3;
@@ -94,7 +166,6 @@ body {
 }
 
 .advantages-description {
-    font-weight: 400;
     text-align: center;
 }
 
@@ -103,25 +174,36 @@ body {
     line-height: 36px;
     font-weight: 700;
     text-transform: uppercase;
+    width: 505px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .additional-description {
     font-size: 22px;
     line-height: 26px;
-    font-weight: 400;
-}
+    width: 490px;
+    margin-right: auto;
+    margin-left: auto;
+    }
 
 .search-title {
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
+    text-transform: uppercase;
+    width: 297px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .search-description {
     font-size: 22px;
     line-height: 26px;
-    font-weight: 400;
-}
+    width: 592px;
+    margin-right: auto;
+    margin-left: auto;
+    }
 
 .search-buttom {
     font-size: 20px;
@@ -130,9 +212,9 @@ body {
     text-transform: uppercase;
     text-align: center;
     color: #FFFFFF;
-}
+   }
 
-.search-title {
+.subscribe-title {
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
@@ -141,10 +223,9 @@ body {
     color: #FFFFFF;
 }
 
-.search-description {
+.subscribe-description {
     font-size: 22px;
     line-height: 26px;
-    font-weight: 400;
     text-align: center;
     color: #FFFFFF;
 }
@@ -152,7 +233,6 @@ body {
 .form-subscribe {
     font-family: "PT Sans", sans-serif;
     line-height: 24px;
-    font-weight: 400;
     text-transform: uppercase;
     color: #000000;
 }
@@ -172,4 +252,5 @@ body {
     background-image: url("../images/subscribe-img.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
+    height: 414px;
 }
