@@ -413,3 +413,92 @@ main {
     margin-right: 70px;
     margin-left: 0;
 }
+
+/* Каталог main */
+
+.filter-content {
+    background-image: url(../images/catalog-img.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 412px;
+}
+
+.filter-title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+}
+
+.breadcrumbs-link {
+    font-size: 16px;
+}
+
+.catalog-filter-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+.control-input {
+    line-height: 23px;
+}
+
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.subscribe-catalog {
+    color: black;
+    background-color: white;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 415px;
+}
+
+.subscribe-title-catalog {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 96px;
+    margin-bottom: 0;
+}
+
+.subscribe-description-catalog {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-right: 363px;
+    margin-left: 363px;
+}
+
+.sorting-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.catalog-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.catalog-hotel {
+    text-decoration: none;
+}
+
+.catalog-text-grey {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.pagination-link {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+}
